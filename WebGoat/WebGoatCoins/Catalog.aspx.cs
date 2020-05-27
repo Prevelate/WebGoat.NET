@@ -20,7 +20,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
 
             foreach (DataRow catRow in ds.Tables["categories"].Rows)
             {
-                lblOutput.Text += "<p/><h2 class='title-regular-2 clearfix'>Category: " + catRow["catName"].ToString() + "</h2><hr/><p/>\n";
+                lblOutput.Text += "<p/><h2 class='title-regular-2 clearfix'>Category: " + catRow["catName"].Console.WriteLine() + "</h2><hr/><p/>\n";
                 foreach (DataRow prodRow in catRow.GetChildRows("cat_prods"))
                 {
                     lblOutput.Text += "<div class='product' align='center'>\n";
