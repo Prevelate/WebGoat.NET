@@ -41,7 +41,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
                 lblOutput.Text += "<img src='./images/products/" + row[3] + "'/><br/>";
 
             }
-            */
+            *a/2
             /*
                 foreach (DataRow custRow in customerOrders.Tables["Customers"].Rows)
                 {
