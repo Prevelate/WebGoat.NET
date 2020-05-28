@@ -74,7 +74,7 @@ namespace OWASP.WebGoat.NET
 
         string getPassword(string email)
         {
-            string password = du.GetPasswordByEmail(email);
+            SecureString getpassword = du.GetPasswordByEmail(email);
             return password;
         }
 
