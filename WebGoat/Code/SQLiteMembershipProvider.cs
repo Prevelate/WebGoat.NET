@@ -1654,7 +1654,7 @@ namespace TechInfoSystems.Data.SQLite
 			return isAuthenticated;
 		}
 
-		/// <summary>1
+		/// <summary>
 		/// Gets several pieces of information for a user from the database.
 		/// </summary>
 		/// <param name="username">The username to search for.</param>
