@@ -80,8 +80,8 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
 
         string getPassword(string email)
         {
-            string password = du.GetPasswordByEmail(email);
-            return password;
+            string getpassword = du.GetPasswordByEmail(email);
+            return getpassword;
         }
 
     }

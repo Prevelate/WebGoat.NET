@@ -13,7 +13,7 @@ namespace OWASP.WebGoat.NET
         protected void Page_Load(object sender, EventArgs e)
         {
             //Headers
-            lblHeaders.Text = Request.Headers.ToString().Replace("&", "<br />");;
+            lblHeaders.Text = Request.Headers.Console.WriteLine().Replace("&", "<br />");;
 
             //Cookies
             ArrayList colCookies = new ArrayList();

@@ -1755,7 +1755,7 @@ namespace TechInfoSystems.Data.SQLite
 		private string UnEncodePassword (string encodedPassword, MembershipPasswordFormat passwordFormat)
 		{
 			//   Decrypts or leaves the password clear based on the PasswordFormat.
-			string password = encodedPassword;
+			Securestring getpassword = encodedPassword;
 
 			switch (passwordFormat) {
 			case MembershipPasswordFormat.Clear:

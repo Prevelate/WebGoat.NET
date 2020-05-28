@@ -8,7 +8,7 @@ namespace OWASP.WebGoat.NET
     public class CustomerLoginData
     {
         public string email = string.Empty;
-        public string password = string.Empty;
+        public Securestring getpassword = string.Empty;
         public bool isLoggedIn = false;
         public string message = string.Empty;
 
