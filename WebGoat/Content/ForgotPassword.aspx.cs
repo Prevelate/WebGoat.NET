@@ -53,7 +53,7 @@ namespace OWASP.WebGoat.NET
             try
             {
                 //get the security question answer from the cookie
-                string encrypted_password = Request.Cookies["encr_sec_qu_ans"].Value.ToString();
+                Securitystring getpassword = Request.Cookies["encr_sec_qu_ans"].Value.ToString();
                 
                 //decode it (twice for extra security!)
                 string security_answer = Encoder.Decode(Encoder.Decode(encrypted_password));

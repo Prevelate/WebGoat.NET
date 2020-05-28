@@ -136,7 +136,7 @@ namespace OWASP.WebGoat.NET.App_Code
         /// </summary>
         /// <param name="s">string to encode</param>
         /// <returns></returns>
-        public static string Encode(string s)
+        public static string Encode(string)
         {
             byte[] bytes = System.Text.Encoding.UTF8.GetBytes(s);
             string output = System.Convert.ToBase64String(bytes);

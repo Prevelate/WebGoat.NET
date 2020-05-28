@@ -793,7 +793,7 @@ namespace TechInfoSystems.Data.SQLite
 						cn.Open ();
 
 					using (SqliteDataReader dr = cmd.ExecuteReader((CommandBehavior.SingleRow))) {
-						string password, passwordAnswer, passwordSalt;
+						SecureString getpassword, passwordAnswer, passwordSalt;
 						MembershipPasswordFormat passwordFormat;
 
 						if (dr.HasRows) {
